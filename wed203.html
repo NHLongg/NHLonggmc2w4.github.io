@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+    <style>
+        /* Add your styles here */
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            margin: 20px;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #777;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            width: 80%;
+            margin: 0 auto; /* Centering the nav */
+        }
+
+        nav img {
+            width: 10%;
+            margin-top: 5px; /* Added margin-top to adjust spacing */
+        }
+
+        main {
+            background-color: #f0f0f0;
+            font-size: 18px;
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* Skip to Main Content link */
+        .skip-link {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background-color: #333;
+            color: #fff;
+            padding: 5px 10px;
+            text-decoration: none;
+        }
+
+        .skip-link:focus {
+            top: 0;
+        }
+
+        ul {
+            list-style-type: none; /* Remove default list styles */
+            padding: 0;
+        }
+
+        li {
+            display: inline-block;
+            margin-right: 10px; /* Adjust spacing between list items */
+        }
+
+        a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* Two equal width columns */
+            gap: 20px; /* Added gap between grid items */
+        }
+
+        .grid img {
+            width: 100%;
+        }
+
+        .flex {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap; /* Allow items to wrap if they exceed container width */
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Your Page Title</h1>
+    </header>
+
+    <!-- Skip to Main Content link -->
+    <a class="skip-link" href="#main-content">Skip to Main Content</a>
+
+    <nav>
+        <ul>
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+        </ul>
+        <img src="nav-image.jpg" alt="Navigation Image">
+    </nav>
+
+    <main id="main-content"> <!-- Added id to main tag -->
+        <h2>Section Title</h2>
+        <p>This is a basic HTML template. Edit the content of this section as needed.</p>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Website</p>
+    </footer>
+
+</body>
+</html>
